@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.section-1{
+    background-color:#1F2937 ;
+    height: 400px;
+    width: 100vw;
+}
+.logo{
+    width: 50px;
+    margin-top: 20px;
+}
+.header{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-section{
+    margin-left: 100px;
+}
+.right-section{
+    /* background-color: aliceblue; */
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.right-section a{
+    color: white;
+    text-decoration: none;
+}
+.middle{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-around;
+    flex-shrink: 1;
+}
+.left{
+    /* margin-left: 50px; */
+    width: 450px;
+    /* background-color: aquamarine; */
+}
+.heading{
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+}
+.description{
+    font-size: 18px;
+    color: white;
+}
+.sign-btn button{
+    color: white;
+    background-color:#3882F6 ;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.right{
+    margin-left: -20px;
+}
+
