@@ -72,7 +72,7 @@ body{
 }
 .section-2{
     background-color: white;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-top: 40px;
     text-align: center;
     height: 250px;
@@ -97,7 +97,6 @@ body{
     align-items: center;
 }
 .quote-container{
-    background-color: aquamarine;
     width: 500px;
     margin-top: 80px;
 }
@@ -140,4 +139,14 @@ body{
     padding: 3px 7px;
     margin-left: 50px;
     margin-top: 7px;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 10;
 }
